@@ -1,0 +1,25 @@
+# Build & Install Ordner (falls im Source erstellt)
+build/
+install/
+log/
+
+# C++ Kompilier-Reste
+*.o
+*.so
+*.a
+compile_commands.json
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporäre CMake Dateien
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# OS generiert
+.DS_Store
